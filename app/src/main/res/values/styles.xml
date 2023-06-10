@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="my_dialog_theme" parent="android:Theme.Material.Light.Dialog">
+        <!--Header Background Color and selected Day Background Color-->
+        <item name="android:windowBackground">@color/dialogBG</item>
+        <item name="android:weekDayTextAppearance">@color/colorPrimary</item>
+        <item name="android:colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/colorOnPrimary</item>
+        <item name="android:colorControlActivated">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryPart</item> <!-- week -->
+
+<!--        <item name="android:colorAccent">@android:color/holo_green_dark</item>-->
+<!--        Days unselected Text Color and Month Text Color-->
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+<!--        Picker Background Color-->
+<!--        Buttons Style (Text Color & backgroundTint)-->
+<!--        <item name="android:buttonBarButtonStyle">@style/MyButtonBarButtonStyle</item>-->
+
+<!--        <item name="android:color">@style/MyButtonBarButtonStyle</item>-->
+    </style>
+
+<!--    <style name="MyButtonBarButtonStyle">-->
+<!--        <item name="android:textColor">@color/colorPrimary</item>-->
+<!--&lt;!&ndash;        <item name="backgroundTint">@color/dialogBG</item>&ndash;&gt;-->
+<!--    </style>-->
+
+</resources>
