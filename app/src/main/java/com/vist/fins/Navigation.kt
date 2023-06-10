@@ -120,20 +120,20 @@ fun Navigation(
     }
 }
 
-@Composable
-fun CourseText() {
-    Column() {
-        Text(
-            text = "То не так складно, як здається",
-            fontSize = 18.sp
-        )
-        Spacer(modifier = Modifier.height(20.dp))
-        Text(
-            text = "Просто дій. Більше практики - краще розуміння 🔥",
-            fontSize = 18.sp
-        )
-    }
-}
+//@Composable
+//fun CourseText() {
+//    Column() {
+//        Text(
+//            text = "То не так складно, як здається",
+//            fontSize = 18.sp
+//        )
+//        Spacer(modifier = Modifier.height(20.dp))
+//        Text(
+//            text = "Просто дій. Більше практики - краще розуміння 🔥",
+//            fontSize = 18.sp
+//        )
+//    }
+//}
 
 @Composable
 fun BottomNavigationBar(
